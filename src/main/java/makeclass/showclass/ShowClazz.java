@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package makeclass.showclass;
 
@@ -15,21 +15,31 @@ import com.blizzardtec.Vehicle;
 public final class ShowClazz {
 
     /**
-     * @param args
+     * Private.
      */
-    public static void main(String[] args) {
+    private ShowClazz() {
+        super();
+    }
+
+    /**
+     * @param args param
+     */
+    public static void main(final String[] args) {
 
         Vehicle vehicle = new Vehicle();
 
-        Method methods[] = vehicle.getClass().getMethods();
+        final Method[] methods = vehicle.getClass().getMethods();
 
         System.out.println("METHODS: ");
+
         for (int i = 0; i < methods.length; i++) {
             System.out.println(methods[i].getName());
         }
 
-        Field fields[] = vehicle.getClass().getDeclaredFields();
+        Field[] fields = vehicle.getClass().getDeclaredFields();
+
         System.out.println("FIELDS: ");
+
         for (int i = 0; i < fields.length; i++) {
             System.out.println(fields[i].getName());
         }

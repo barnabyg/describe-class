@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.blizzardtec;
 
@@ -9,12 +9,33 @@ package com.blizzardtec;
  */
 public final class Vehicle {
 
+    /**
+     * blah.
+     */
     private float length;
+    /**
+     * blah.
+     */
     private float width;
+    /**
+     * blah.
+     */
     private int engineCapacity;
+    /**
+     * blah.
+     */
     private String brand;
+    /**
+     * blah.
+     */
     private String model;
+    /**
+     * blah.
+     */
     private float price;
+    /**
+     * blah.
+     */
     private boolean luxuryCar;
 
     /**
@@ -26,7 +47,7 @@ public final class Vehicle {
     /**
      * @param length the length to set
      */
-    public void setLength(float length) {
+    public void setLength(final float length) {
         this.length = length;
     }
     /**
@@ -38,7 +59,7 @@ public final class Vehicle {
     /**
      * @param width the width to set
      */
-    public void setWidth(float width) {
+    public void setWidth(final float width) {
         this.width = width;
     }
     /**
@@ -50,7 +71,7 @@ public final class Vehicle {
     /**
      * @param engineCapacity the engineCapacity to set
      */
-    public void setEngineCapacity(int engineCapacity) {
+    public void setEngineCapacity(final int engineCapacity) {
         this.engineCapacity = engineCapacity;
     }
     /**
@@ -62,7 +83,7 @@ public final class Vehicle {
     /**
      * @param brand the brand to set
      */
-    public void setBrand(String brand) {
+    public void setBrand(final String brand) {
         this.brand = brand;
     }
     /**
@@ -74,7 +95,7 @@ public final class Vehicle {
     /**
      * @param model the model to set
      */
-    public void setModel(String model) {
+    public void setModel(final String model) {
         this.model = model;
     }
     /**
@@ -86,7 +107,7 @@ public final class Vehicle {
     /**
      * @param price the price to set
      */
-    public void setPrice(float price) {
+    public void setPrice(final float price) {
         this.price = price;
     }
     /**
@@ -98,7 +119,7 @@ public final class Vehicle {
     /**
      * @param luxuryCar the luxuryCar to set
      */
-    public void setLuxuryCar(boolean luxuryCar) {
+    public void setLuxuryCar(final boolean luxuryCar) {
         this.luxuryCar = luxuryCar;
     }
 }
