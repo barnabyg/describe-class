@@ -1,0 +1,4 @@
+/**
+ * Blah.
+ */
+package makeclass.showclass;
